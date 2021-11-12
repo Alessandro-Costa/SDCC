@@ -1,0 +1,25 @@
+import os
+import sys
+import time
+import subprocess
+
+def cpuINFO():
+    with open('out.txt', 'w+') as fout:
+        with open('err.txt', 'w+') as ferr:
+            out=subprocess.run(["docker", "stats", "--format","'{{.CPUPerc}}'", "--no-stream"], stdout=fout, stderr=ferr)
+            readInfo(fout)
+            fout.seek(0)
+            print("SGODO")
+            output=fout.read()
+            ferr.seek(0)
+            errors=ferr.read()
+
+def readInfo(fout):
+    print("LESO")
+    fout = open("out.txt","r")
+    line = fout.readline()
+    print("Il valore comparato è"+line)
+
+
+if __name__=="__main__":
+    cpuINFO()

@@ -1,0 +1,98 @@
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.988MiB / 3.769GiB   0.10%     6.93kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.988MiB / 3.769GiB   0.10%     6.93kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.988MiB / 3.769GiB   0.10%     6.93kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.988MiB / 3.769GiB   0.10%     6.93kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.988MiB / 3.769GiB   0.10%     7.24kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O      BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.992MiB / 3.769GiB   0.10%     7.4kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O      BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     7.4kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O      BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     7.4kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O      BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     7.4kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O      BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     7.4kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     7.49kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     7.49kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     7.91kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.15kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.26kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.26kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.26kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.26kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.26kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.26kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.35kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.42kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.42kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.42kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.42kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.42kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.42kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.42kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.42kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.42kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O      BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.5kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O      BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.5kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O      BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.5kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O      BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.5kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O      BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.5kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O      BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.5kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O      BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.5kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O      BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.5kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O      BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.5kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O      BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.5kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.59kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.59kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.59kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.59kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     9.89kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     10.1kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     10.1kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     10.1kB / 0B   3.49MB / 0B   8
+CONTAINER ID   NAME           CPU %     MEM USAGE / LIMIT     MEM %     NET I/O       BLOCK I/O     PIDS
+25e0dd63ee43   cool_burnell   0.00%     3.859MiB / 3.769GiB   0.10%     10.1kB / 0B   3.49MB / 0B   8
