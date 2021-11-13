@@ -3,23 +3,50 @@ import sys
 import time
 import subprocess
 
-def cpuINFO():
-    with open('out.txt', 'w+') as fout:
-        with open('err.txt', 'w+') as ferr:
-            out=subprocess.run(["docker", "stats", "--format","'{{.CPUPerc}}'", "--no-stream"], stdout=fout, stderr=ferr)
-            readInfo(fout)
-            fout.seek(0)
-            print("SGODO")
-            output=fout.read()
-            ferr.seek(0)
-            errors=ferr.read()
+import boto3
 
-def readInfo(fout):
-    print("LESO")
-    fout = open("out.txt","r")
-    line = fout.readline()
-    print("Il valore comparato è"+line)
+
+def controllo():
+    print("Scegliere l'operazione tra il Calcolo del numero primo(il comando è primo) e il Calcolo del valore del pgreco(il comando è pi)")
+    operation = input()
+    print("Scegliere il parametro intero da passare alla relativa operazione scelta se si vuole calcolare l'nessimo numero primo o l'nessimo numero dietro la virgola del pgreco")
+    value = input()
+    if(operation=='pi'):
+        funcPI(value)
+    if(operation=='primo'):
+        funcPRIMO(value)
+    else:
+        print("Errore:l'operazioni che si possono effetturare sono solo pi o primo")
+
+def funcPI(value):
+    fp = open("out.txt", "r")
+    subprocess.run(['docker', 'stats', '--format', "'{{.CPUPerc}}'", '--no-stream'], stdout=fp)
+    line = fp.readline(6)
+    if (int(line[1]) < 7):
+        os.system('curl -XPOST "http://localhost:9001/2015-03-31/functions/function/invocations" -d '+"'"+'{"operation":"pi",'+' "value":{valore}'.format(valore=value)+'}'+"'")
+    else:
+        lambda_client = boto3.client('lambda', region_name='us-east-1')
+        lambda_payload = '{"operation": "pi",'+'"value": {valore}'.format(valore=value)+'}'
+        response = lambda_client.invoke(
+            FunctionName='arn:aws:lambda:us-east-1:752739800150:function:cpu_intensive_lambda',
+            InvocationType='RequestResponse', LogType='Tail', Payload=lambda_payload)
+        return response['Payload'].read()
+
+def funcPRIMO(value):
+    fp = open("out.txt", "r")
+    subprocess.run(['docker', 'stats', '--format', "'{{.CPUPerc}}'", '--no-stream'], stdout=fp)
+    line = fp.readline(6)
+    if (int(line[1]) < 7):
+        os.system('curl -XPOST "http://localhost:9001/2015-03-31/functions/function/invocations" -d '+"'"+'{"operation":"primo",'+' "value":{valore}'.format(valore=value)+'}'+"'")
+    else:
+        lambda_client = boto3.client('lambda', region_name='us-east-1')
+        lambda_payload = '{"operation": "primo",' + '"value": {valore}'.format(valore=value) + '}'
+        response = lambda_client.invoke(
+            FunctionName='arn:aws:lambda:us-east-1:752739800150:function:cpu_intensive_lambda',
+            InvocationType='RequestResponse', LogType='Tail', Payload=lambda_payload)
+        return response['Payload'].read()
 
 
 if __name__=="__main__":
-    cpuINFO()
+    rc = subprocess.call("./docker.sh")
+    controllo()
