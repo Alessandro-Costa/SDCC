@@ -11,6 +11,8 @@ WORKDIR /app
 #genero il file requirements.txt
 COPY requirements.txt requirements.txt
 #runno il comando per python
+RUN mkdir ~/.aws
+COPY credentials ~/.aws/credentials
 RUN pip3 install -r requirements.txt --target "${LAMBDA_TASK_ROOT}"
 COPY . .
 CMD [ "app.handler" ]
