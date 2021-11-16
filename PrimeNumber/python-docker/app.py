@@ -1,10 +1,11 @@
 import mpmath
+import psutil
 def handler(event, context):
     if (event['operation'] == "pi"):
         x = int(event['value'])
         mpmath.mp.dps = x
         print("Il numero pi-greco con le", x, "cifre decimali", mpmath.pi)
-        return "Il valore e' " + str(mpmath.pi)
+        return "Il valore e' " + str(mpmath.pi)+"La cpu usage è: "+psutil.cpu_percent(4)
     if event['operation'] == "primo":
         x = int(event['value'])
         print("Sto eseguendo")
