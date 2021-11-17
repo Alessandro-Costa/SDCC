@@ -1,0 +1,4 @@
+mpmath==1.2.1
+psutil==5.8.0
+boto3
+logging==0.4.9.6

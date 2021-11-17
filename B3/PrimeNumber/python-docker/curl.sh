@@ -1,0 +1,1 @@
+curl -XPOST http://localhost:9001/2015-03-31/functions/function/invocations -d '{"operation":"pi","value":100}'
