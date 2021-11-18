@@ -1,16 +1,14 @@
 import boto3
 import mpmath
 import psutil
-token = 0
+
 def handler(event, context):
     if (event['operation'] == "pi"):
-        token = 1
         x = int(event['value'])
         mpmath.mp.dps = x
         cpu_usage = psutil.cpu_percent()
-        if(cpu_usage <80.0):
+        if cpu_usage < 80.0:
             print("Il numero pi-greco con le", x, "cifre decimali", mpmath.pi)
-            token = 0
             return "Il valore e' " + str(mpmath.pi)
         else:
             print("MANDO LA RICHIESTA A LAMBDA")
@@ -19,10 +17,8 @@ def handler(event, context):
             response = lambda_client.invoke(
                 FunctionName='arn:aws:lambda:us-east-1:752739800150:function:cpu_intensive_lambda',
                 InvocationType='RequestResponse', LogType='Tail', Payload=lambda_payload)
-            token = 0
             return response['Payload'].read()
     if event['operation'] == "primo":
-        token = 1
         x = int(event['value'])
         print("Sto eseguendo")
         print(x)
@@ -46,11 +42,9 @@ def handler(event, context):
                 response = lambda_client.invoke(
                     FunctionName='arn:aws:lambda:us-east-1:752739800150:function:cpu_intensive_lambda',
                     InvocationType='RequestResponse', LogType='Tail', Payload=lambda_payload)
-                token = 0
                 return response['Payload'].read()
         print(primi)
         print("Il ", x, " valore e': ", n)
-        token = 0
         return "Il" + str(x) + "valore e': " + str(n) + " La lista dei numeri primi precedenti e': " + str(primi)
 
 
