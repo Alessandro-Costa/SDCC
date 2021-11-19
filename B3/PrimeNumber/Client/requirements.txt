@@ -1,2 +1,0 @@
-boto3
-subprocess32==3.5.4
