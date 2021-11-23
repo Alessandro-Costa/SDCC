@@ -13,7 +13,7 @@ def controllo():
         fo = open("output.txt", 'r+')#e per salvare il risultato dell'ultima richiesta.
         content = fo.read()
         log = fl.read()
-        print("\n&&&&&&&&&& -PI- $$$$$$$$$$$$ -PRIMO- $$$$$$$$$$$ -READ-")
+        print("\nSCEGLIERE L'OPERAZIONE DA SVOLGERE: DIGITARE TRA PI, PRIMO O READ")
         operation = input()
         if(operation == "read" or operation =="READ"):  #oltre che richiedere una delle due funzioni serverless, ho creato una funzione per leggere il contenuto dei file senza dover uscire dallo script
             if(content == ''):
@@ -23,7 +23,7 @@ def controllo():
             fl.close()
             fo.close()
             controllo()
-        print("\n$$$$$$$$$ VALORE INTERO &&&&&&&&&&")
+        print("\nINSERIRE IL VALORE INTERO DA ANALIZZARE")
         value = input()
         func(operation,value,i) #dopo aver preso i diversi input, chiamo la funzione che chiamerà i diversi nodi, che simulo solamente 2 che vengono chiamati in modo random, poichè ipotizzo che dipenda dalla loro locazione geografica e quindi tendenzialmente dovrei scegliere sempre quello piu vicino per avere una comunicazione più veloce
         if(operation!='primo' and operation!='pi' and operation!= 'PRIMO' and operation!= 'PI'):
