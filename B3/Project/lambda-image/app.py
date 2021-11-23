@@ -40,7 +40,7 @@ def handler(event, context):
 
         while c < x:
             n += 1
-            cpu_usage = psutil.cpu_percent()
+            cpu_usage = psutil.cpu_percent()        #si calcola l'n-esimo valore primo e si controlla sempre lo status della cpu
             if(cpu_usage < 80.0):
                 for i in range(2, n + 1):
                     if (n % i) == 0:

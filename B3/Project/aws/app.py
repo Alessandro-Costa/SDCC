@@ -11,14 +11,11 @@ def handler(event, context):
     if (event['operation'] == "pi"): #in base agli input presi si calcola o la precisione del pi-greco o l'ennesimo numero primo
         PASSI = int(event['value'])
         Sn = 0
-        cpu_usage = psutil.cpu_percent()
-
         for n in range(1, PASSI +1):
             an = a(n)
             Sn += an
             pin = math.sqrt(6 * Sn)
         print("Il numero pi-greco con", str(PASSI), "grado di accuratezza", str(pin))    #per decidere dove calcolare l'operazione controllo il valore della CPU del sistema, e se satura il sistema rindirizzo la richiesta a AWS lambda.
-
         return "Il valore e' " + str(pin)
 
     if event['operation'] == "primo":
