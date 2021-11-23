@@ -3,6 +3,7 @@ OUTPUT=$(pwd)
 echo "${OUTPUT}"
 sudo apt-get install update
 sudo apt-get install docker
+sudo apt-get install docker.io
 sudo apt-get install gnome-terminal
 cd ${OUTPUT}/Project/Client/
 docker build -t client:1.0 .
